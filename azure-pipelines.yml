@@ -17,4 +17,4 @@ steps:
     azureSubscription: 'Pay-As-You-Go(9c49e2f3-8629-43cc-bec5-c1cea9abb8a2)'
     appType: 'webAppLinux'
     WebAppName: 'happy-birthday-priyanka'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/html'
